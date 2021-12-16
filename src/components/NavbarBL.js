@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Nav,NavDropdown,Container,FormControl,Form,Button} from 'react-bootstrap';
+import { Navbar, Nav,Container} from 'react-bootstrap';
 import {Link} from 'react-router-dom'
 import "./Login.css"
 function NavbarBL() {
@@ -16,7 +16,7 @@ function NavbarBL() {
       >
         <Link to="/register" className='L-underline L-margin'>REGISTER</Link>
         <Link to="/" className='L-underline ml-5'>LOGIN</Link>
-        <Link to="/home" className='L-underline ml-5'>HOME</Link>
+        {/* <Link to="/home" className='L-underline ml-5'>HOME</Link> */}
       </Nav>
     </Navbar.Collapse>
   </Container>
