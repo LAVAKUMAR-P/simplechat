@@ -1,7 +1,7 @@
 let getSettings = () => {
     return {
-         api : "http://localhost:3001",
-        //api : "https://shopnode123.herokuapp.com",
+         //api : "http://localhost:3001",
+        api : "https://simplechat321.herokuapp.com",
     }
 }
 

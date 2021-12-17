@@ -5,11 +5,11 @@ import Chat from "./Room";
 import NavbarB from "./NavbarB";
 import {useNavigate} from "react-router-dom"
 import Bbar from './Bbar';
+import env from "./settings";
 
 
 
-
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect(`${env.api}`);
 function Mainchat() {
   const Navigate=useNavigate()
     const [username, setUsername] = useState("");
